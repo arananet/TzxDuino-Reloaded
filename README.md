@@ -6,17 +6,17 @@ This new version has completely reworked with smd components. Also change the di
 
 # Note
 
-This is a work in progress, several testing must be made but it should work as is. No warranties.
+This is a work in progress, several testing must be made but it should work as is. I take no responsibiltiy for any damage to any equipment that results from the use of this board. USE AT YOUR OWN RISK!
 
 # Audio Amp
 
-Since is not clear if there is necessary a output amp, i have added a little solder jumper to enable or disable de AMP LM386. This is achiveved by select if there is an amp available, then set jumper to 1-2 if no amp available on pcb, then set jumper 2-3. Setting the jumper 2-3 the bridge set the D9 signal directly to the 3.5mm jack.
+Since is not clear if there is necessary a output amp, I have added a little solder jumper to enable or disable the AMP LM386. By setting the jumper to 1-2, will use the op amp onboard (if you solder the lm386 on the pcb). Else if we don't want to use he AMP, we can set the jumper to 2-3, this will connect the D9 signal directly to the 3.5mm jack.
 
 # Images
 
 <img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/top.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottom.jpg?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottom.png?raw=true" width="700">
 
 # Instructions
  
