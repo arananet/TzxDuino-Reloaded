@@ -29,6 +29,7 @@ hfuse = 0xde, efuse = 0x05
 
 # Updates
 
+06/09/2017: Added a SD card socket on the back. You must cut the jack 3.5mm pins that are too large.
 06/09/2017: First initial release. 
 
 # Bill of materials
@@ -65,3 +66,4 @@ hfuse = 0xde, efuse = 0x05
 | SD1           | TF-HOLDER               | TF-PULL                        |
 | TTL           | PINHD_1X03              | 1X03                           |
 | X1            | STEREOJACK              | STX3100                        |
+| SD SOCKET     | SDCARD_SMT_4U06132      | SDCARD_SMT_4U06132             |
