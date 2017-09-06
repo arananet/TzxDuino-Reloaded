@@ -30,6 +30,7 @@ hfuse = 0xde, efuse = 0x05
 # Updates
 
 06/09/2017: Added a SD card socket on the back. You must cut the jack 3.5mm pins that are too large.
+
 06/09/2017: First initial release. 
 
 # Bill of materials
