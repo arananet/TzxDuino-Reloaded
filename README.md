@@ -66,5 +66,6 @@ hfuse = 0xde, efuse = 0x05
 | UP            | PUSH BUTTON             | B3F-31XX                       |
 | SD1           | TF-HOLDER               | TF-PULL                        |
 | TTL           | PINHD_1X03              | 1X03                           |
-| X1            | STEREOJACK              | STX3100                        |
+| X1            | STEREOJACK 3.5mm        | STX3100                        |
+| X2            | STEREOJACK 2.5mm        | 1501_05                        |
 | SD SOCKET     | SDCARD_SMT_4U06132      | SDCARD_SMT_4U06132             |
