@@ -29,6 +29,8 @@ hfuse = 0xde, efuse = 0x05
 
 # Updates
 
+16/09/2017: Added a 2.5mm for use with remote signal (MSX) and a DTR signal. Components realocated.
+
 06/09/2017: Added a SD card socket on the back. You must cut the jack 3.5mm pins that are too large.
 
 06/09/2017: First initial release. 
