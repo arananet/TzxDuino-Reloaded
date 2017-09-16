@@ -14,9 +14,9 @@ Since is not clear if there is necessary a output amp, I have added a little sol
 
 # Images
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/topn.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/top.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottomn.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottom.png?raw=true" width="700">
 
 # Instructions
  
@@ -37,6 +37,7 @@ hfuse = 0xde, efuse = 0x05
 
 | Part          | Value                   | Package                        |
 | ------------- | ----------------------- | ------------------------------ | 
+| C1            | 0.1uF                   | C0805K                         |
 | C2            | 0.1uF                   | C0805K                         |
 | C3            | 0.22uF                  | C0805K                         |
 | C4            | 220uf                   | 153CLV-0605                    |
@@ -54,6 +55,7 @@ hfuse = 0xde, efuse = 0x05
 | POWER         | SMD 0805 LED            | CHIP-LED0805                   |
 | ACT           | SMD 0805 LED            | CHIP-LED0805                   |
 | Q3            | 16MHZ                   | QS                             |
+| R1            | 1k                      | R0805                          |
 | R6            | 10k                     | R0805                          |
 | R7            | 120                     | R0805                          |
 | R8            | 1M                      | R0805                          |
@@ -65,7 +67,8 @@ hfuse = 0xde, efuse = 0x05
 | STOP          | PUSH BUTTON             | B3F-31XX                       |
 | UP            | PUSH BUTTON             | B3F-31XX                       |
 | SD1           | TF-HOLDER               | TF-PULL                        |
-| TTL           | PINHD_1X03              | 1X03                           |
+| SD SOCKET     | SDCARD_SMT_4U06132      | SDCARD_SMT_4U06132             |
+| TTL           | PINHD_1X04              | 1X04                           |
 | X1            | STEREOJACK 3.5mm        | STX3100                        |
 | X2            | STEREOJACK 2.5mm        | PJ-204B                        |
-| SD SOCKET     | SDCARD_SMT_4U06132      | SDCARD_SMT_4U06132             |
+
