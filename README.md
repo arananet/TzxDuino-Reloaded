@@ -30,6 +30,8 @@ Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 
 # Updates
 
+03/11/2017: Complete redesigned for use with arduino pro mini.
+
 16/09/2017: Added a 2.5mm for use with remote signal (MSX) and a DTR signal. Components realocated.
 
 06/09/2017: Added a SD card socket on the back. You must cut the jack 3.5mm pins that are too large.
@@ -45,11 +47,9 @@ Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 | C3            | 0.22uF                  | C0805K                         |
 | C4            | 220uf                   | 153CLV-0605                    |
 | C5            | 10uf                    | C0805K                         |
-| C13           | 22p                     | C0805                          |
-| C14           | 22p                     | C0805                          |
 | IC1           | 4050D                   | SO16                           |
 | IC2           | AVR-ATMEGA328p-TQP32    | QFP32                          |
-| IC3           | LP298XS                 | SOT23-5L                       |
+| REG           | LM1117 3V3              | SOT233                         |
 | IC4           | LM386M-1                | SO08                           |
 | ISP           | AVR_SPI_PRG_6PTH        | 2X3                            |
 | J1            | LM386 yes/no            | JP3_0805                       |
@@ -57,11 +57,9 @@ Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 | K1            | MICROUSB B              | 629105136821                   |
 | POWER         | SMD 0805 LED            | CHIP-LED0805                   |
 | ACT           | SMD 0805 LED            | CHIP-LED0805                   |
-| Q3            | 16MHZ                   | QS                             |
 | R1            | 1k                      | R0805                          |
 | R6            | 10k                     | R0805                          |
 | R7            | 120                     | R0805                          |
-| R8            | 1M                      | R0805                          |
 | R9            | 1K                      | R0805                          |
 | PLAY          | PUSH BUTTON             | B3F-31XX                       |
 | DOWN          | PUSH BUTTON             | B3F-31XX                       |
@@ -69,7 +67,7 @@ Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 | S1            | PUSH BUTTON             | B3F-10XX                       |
 | STOP          | PUSH BUTTON             | B3F-31XX                       |
 | UP            | PUSH BUTTON             | B3F-31XX                       |
-| SD1           | TF-HOLDER               | TF-PULL                        |
+| SD1           | MicroSD socket          | TF-PULL                        |
 | SD SOCKET     | SDCARD_SMT_4U06132      | SDCARD_SMT_4U06132             |
 | TTL           | PINHD_1X04              | 1X04                           |
 | X1            | STEREOJACK 3.5mm        | STX3100                        |
