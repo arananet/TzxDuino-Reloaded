@@ -28,6 +28,10 @@ Since is not clear if there is necessary a output amp, I have added a little sol
 
 Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 
+# Acrylic case
+
+I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535743
+
 # Updates
 
 03/11/2017: Complete redesigned for use with arduino pro mini.
@@ -48,7 +52,7 @@ Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 | C4            | 220uf                   | 153CLV-0605                    |
 | C5            | 10uf                    | C0805K                         |
 | IC1           | 4050D                   | SO16                           |
-| IC2           | AVR-ATMEGA328p-TQP32    | QFP32                          |
+| M2            | ARDUINO PRO MINI        | PCB                            |
 | REG           | LM1117 3V3              | SOT233                         |
 | IC4           | LM386M-1                | SO08                           |
 | ISP           | AVR_SPI_PRG_6PTH        | 2X3                            |
