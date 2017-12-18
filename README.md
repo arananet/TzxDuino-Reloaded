@@ -34,6 +34,8 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 
 # Updates
 
+18/12/2017: Bom updated.
+
 03/11/2017: Complete redesigned for use with arduino pro mini.
 
 16/09/2017: Added a 2.5mm for use with remote signal (MSX) and a DTR signal. Components realocated.
