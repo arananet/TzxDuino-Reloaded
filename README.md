@@ -34,7 +34,7 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 
 # Updates
 
-18/12/2017: Bom updated.
+18/12/2017: Bom updated. (thanks to @jgilcas for the tips)
 
 03/11/2017: Complete redesigned for use with arduino pro mini.
 
@@ -63,8 +63,6 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 | K1            | MICROUSB B              | 629105136821                   |
 | POWER         | SMD 0805 LED            | CHIP-LED0805                   |
 | ACT           | SMD 0805 LED            | CHIP-LED0805                   |
-| R1            | 1k                      | R0805                          |
-| R6            | 10k                     | R0805                          |
 | R7 (FOR LED)  | 330/560/1K              | R0805                          |
 | R9 (FOR LED)  | 330/560/1K              | R0805                          |
 | PLAY          | PUSH BUTTON             | B3F-31XX                       |
