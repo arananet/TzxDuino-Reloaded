@@ -10,7 +10,7 @@ This is a work in progress, several testing must be made but it should work as i
 
 # Audio Amp
 
-Since is not clear if there is necessary a output amp, I have added a little solder jumper to enable or disable the AMP LM386. By setting the jumper to 1-2, will use the op amp onboard (if you solder the lm386 on the pcb). Else if we don't want to use he AMP, we can set the jumper to 2-3, this will connect the D9 signal directly to the 3.5mm jack.
+Since is not clear if there is necessary a output amp, I have added a little solder jumper to enable or disable the AMP LM386. By setting the jumper to 1-2, will use the op amp onboard (if you solder the lm386 on the pcb). Else if we don't want to use he AMP, we can set the jumper to 2-3, this will connect the D9 signal directly to the 3.5mm jack. *UPDATE 18-12-2017* There is a little mistake on the J1, the enable and disable option is twisted. So 1-2 will disable AMP and 2-3 will enable AMP.
 
 # Images
 
