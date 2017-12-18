@@ -49,12 +49,12 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 | C1            | 0.1uF                   | C0805K                         |
 | C2            | 0.1uF                   | C0805K                         |
 | C3            | 0.22uF                  | C0805K                         |
-| C4            | 220uf                   | 153CLV-0605                    |
+| C4            | 220uf                   | 153CLV-0605 (only with amp)    |
 | C5            | 10uf                    | C0805K                         |
 | IC1           | 4050D                   | SO16                           |
 | M2            | ARDUINO PRO MINI        | PCB                            |
 | REG           | LM1117 3V3              | SOT233                         |
-| IC4           | LM386M-1                | SO08                           |
+| IC4           | LM386M-1                | SO08 (only if amp required)    |
 | ISP           | AVR_SPI_PRG_6PTH        | 2X3                            |
 | J1            | LM386 yes/no            | JP3_0805                       |
 | JP1           | OLED SCREEN CONNECTOR   | 1X04_ROUND                     |
@@ -63,8 +63,8 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 | ACT           | SMD 0805 LED            | CHIP-LED0805                   |
 | R1            | 1k                      | R0805                          |
 | R6            | 10k                     | R0805                          |
-| R7            | 120                     | R0805                          |
-| R9            | 1K                      | R0805                          |
+| R7 (FOR LED)  | 330/560/1K              | R0805                          |
+| R9 (FOR LED)  | 330/560/1K              | R0805                          |
 | PLAY          | PUSH BUTTON             | B3F-31XX                       |
 | DOWN          | PUSH BUTTON             | B3F-31XX                       |
 | ROOT          | PUSH BUTTON             | B3F-31XX                       |
