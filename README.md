@@ -43,6 +43,7 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 * Added a on-off switch for the op amp proposed by @jgilcas.
 * Added a 5x2 pcb connector for use with other devices, proposed by spark2k06.
 * Bom updated.
+* Acrylic case updated.
 
 18/12/2017: Bom updated. (thanks to @jgilcas for the tips)
 
