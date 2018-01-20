@@ -14,9 +14,9 @@ Since is not clear if there is necessary a output amp, I have added a little sol
 
 # Images
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzx1.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tz1.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzx2.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tz2.png?raw=true" width="700">
 
 # Instructions
  
@@ -37,8 +37,8 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 20/01/2018: Mayor update:
 
 * Fix silkscreen components.
-* Added a volumen regulator (if the op amp is present) by @jgilcas
-* Added a on-off switch for the opamp.
+* Added a gain regulator (if the op amp is present) by @jgilcas.
+* Added a on-off switch for the op amp proposed by @jgilcas.
 * Added a 5x2 pcb connector for use with other devices, proposed by spark2k06.
 * Bom updated.
 
