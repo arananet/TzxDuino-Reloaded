@@ -10,13 +10,13 @@ This is a work in progress, several testing must be made but it should work as i
 
 # Audio Amp
 
-Since is not clear if there is necessary a output amp, I have added a little solder jumper to enable or disable the AMP LM386. By setting the jumper to 1-2, will use the op amp onboard (if you solder the lm386 on the pcb). Else if we don't want to use he AMP, we can set the jumper to 2-3, this will connect the D9 signal directly to the 3.5mm jack. *UPDATE 18-12-2017* There is a little mistake on the J1, the enable and disable option is twisted. So 1-2 will disable AMP and 2-3 will enable AMP.
+Since is not clear if there is necessary a output amp, I have added a little solder jumper to bypass or enable the D9 signal to the AMP LM386. By setting the jumper to 1-2, will set the D9 signal to the op amp onboard (if you solder the lm386 on the pcb). Else if we don't want to use he AMP, we can set the jumper to 2-3, this will connect the D9 signal directly to the 3.5mm jack. 
 
 # Images
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/top1.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzx1.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottom1.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzx2.png?raw=true" width="700">
 
 # Instructions
  
@@ -34,6 +34,14 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 
 # Updates
 
+20/01/2018: Mayor update:
+
+* Fix silkscreen components.
+* Added a volumen regulator (if the op amp is present) by @jgilcas
+* Added a on-off switch for the opamp.
+* Added a 5x2 pcb connector for use with other devices, proposed by spark2k06.
+* Bom updated.
+
 18/12/2017: Bom updated. (thanks to @jgilcas for the tips)
 
 03/11/2017: Complete redesigned for use with arduino pro mini.
@@ -48,23 +56,24 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 
 | Part          | Value                   | Package                        |
 | ------------- | ----------------------- | ------------------------------ | 
-| C1            | 0.1uF                   | C0805K                         |
-| C2            | 0.1uF                   | C0805K                         |
-| C3            | 0.22uF                  | C0805K                         |
+| C1            | 10uf/22uf               | C0805K                         |
+| C2            | 0.22uF                  | C0805K                         |
+| C3            | 10uf                    | C0805K                         |
 | C4            | 220uf                   | 153CLV-0605 (only with amp)    |
-| C5            | 10uf                    | C0805K                         |
-| IC1           | 4050D                   | SO16                           |
 | M2            | ARDUINO PRO MINI        | PCB                            |
 | REG           | LM1117 3V3              | SOT233                         |
+| IC1           | 4050D                   | SO16                           |
 | IC4           | LM386M-1                | SO08 (only if amp required)    |
 | ISP           | AVR_SPI_PRG_6PTH        | 2X3                            |
-| J1            | LM386 yes/no            | JP3_0805                       |
+| TTL           | PINHD_1X04              | 1X04                           |
+| J1            | D9 bypass-enable        | Solder jumper                  |
 | JP1           | OLED SCREEN CONNECTOR   | 1X04_ROUND                     |
 | K1            | MICROUSB B              | 629105136821                   |
 | POWER         | SMD 0805 LED            | CHIP-LED0805                   |
 | ACT           | SMD 0805 LED            | CHIP-LED0805                   |
-| R7 (FOR LED)  | 330/560/1K              | R0805                          |
-| R9 (FOR LED)  | 330/560/1K              | R0805                          |
+| R1            | 1K TrimPotentiometer    | RTRIM3103   (only with amp)    |
+| R2 (FOR LED)  | 330/560/1K              | R0805                          |
+| R3 (FOR LED)  | 330/560/1K              | R0805                          |
 | PLAY          | PUSH BUTTON             | B3F-31XX                       |
 | DOWN          | PUSH BUTTON             | B3F-31XX                       |
 | ROOT          | PUSH BUTTON             | B3F-31XX                       |
@@ -73,7 +82,7 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 | UP            | PUSH BUTTON             | B3F-31XX                       |
 | SD1           | MicroSD socket          | TF-PULL                        |
 | SD SOCKET     | SDCARD_SMT_4U06132      | SDCARD_SMT_4U06132             |
-| TTL           | PINHD_1X04              | 1X04                           |
 | X1            | STEREOJACK 3.5mm        | STX3100                        |
 | X2            | STEREOJACK 2.5mm        | PJ-204B                        |
+| X3            | 5X2 Pin row             | Standard 1" double pin row     |
 
