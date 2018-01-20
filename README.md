@@ -8,6 +8,8 @@ This new version has been completely reworked with smd components. Also change t
 
 This is a work in progress, several testing must be made but it should work as is. I take no responsibiltiy for any damage to any equipment that results from the use of this board. USE AT YOUR OWN RISK!
 
+If you like the project, buy me a beer :) info@arananet.net
+
 # Audio Amp
 
 Since is not clear if there is necessary a output amp, I have added a little solder jumper to bypass or enable the D9 signal to the AMP LM386. By setting the jumper to 1-2, will set the D9 signal to the op amp onboard (if you solder the lm386 on the pcb). Else if you don't want to use the OP AMP, you can set the jumper to 2-3, this will connect the D9 signal directly to the 3.5mm jack. 
