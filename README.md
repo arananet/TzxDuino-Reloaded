@@ -1,4 +1,4 @@
-# TzxDuino-Reloaded
+# TzxDuino-Reloaded 1.3.2
 
 Based on the original design of Andrew Beer, Duncan Edwards.
 
@@ -22,9 +22,9 @@ Since is not clear if there is necessary a output amp, I have added a little sol
 
 # Images
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tz1.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/img1.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tz2.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/img2.png?raw=true" width="700">
 
 # Instructions
  
@@ -41,6 +41,10 @@ Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535743
 
 # Updates
+
+17/02/2018: Add a screen voltage selector, this is because some chinese oled screen came with the VCC and GND mixed. This can be change on the screen (there are two resistros to swap voltage) but it will more fast to select onboard with two new available solder jumpers.
+
+Changed the USB connector to a most common used.
 
 20/01/2018: Mayor update:
 
