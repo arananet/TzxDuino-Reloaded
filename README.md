@@ -72,7 +72,7 @@ Changed the USB connector to a most common used.
 | C1            | 10uf/22uf               | C0805K                         |
 | C2            | 0.22uF                  | C0805K                         |
 | C3            | 10uf                    | C0805K                         |
-| C4            | 220uf                   | 153CLV-0605 (only with amp)    |
+| C4            | 220uf                   | 8x12mm (only with amp)         |
 | M2            | ARDUINO PRO MINI        | PCB                            |
 | REG           | LM1117 3V3              | SOT233                         |
 | IC1           | 4050D                   | SO16                           |
