@@ -99,3 +99,4 @@ Changed the USB connector to a most common used.
 | X2            | STEREOJACK 2.5mm        | PJ-204B                        |
 | X3            | 5X2 Pin row             | Standard 1" double pin row     |
 
+This is the arduino used in all the versions of the TZXDUINO. Must have A4 and A5 at bottom of the A2 and A3. AliExpress Link. https://es.aliexpress.com/store/product/Free-Shipping-New-Atmega328-5v-Version-Pro-Mini-Module-16M-For-Arduino-Compatible/1962508_32605434250.html?spm=a219c.search0104.3.6.27c06b16t4pHKf&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_5722813_10151_10344_10068_10342_5722613_10547_10343_5722913_10340_10341_10548_10698_10697_10696_10084_10083_5722713_10618_10307_10301_10303_5711213_10059_10184_10534_308_100031_10103_441_10624_10623_10622_10621_10620_5722513_5711313,searchweb201603_1,ppcSwitch_5&algo_expid=69227fd3-b92f-4d61-afc6-97915d0331e3-3&algo_pvid=69227fd3-b92f-4d61-afc6-97915d0331e3&transAbTest=ae803_1&priceBeautifyAB=0
