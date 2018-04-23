@@ -1,4 +1,4 @@
-# TzxDuino-Reloaded 1.3.2
+# TzxDuino-Reloaded 1.4
 
 Based on the original design of Andrew Beer, Duncan Edwards.
 
@@ -18,13 +18,13 @@ If you like the project, buy me a beer :) info@arananet.net
 
 # Audio Amp
 
-Since is not clear if there is necessary a output amp, I have added a little solder jumper to bypass or enable the D9 signal to the AMP LM386. By setting the jumper to 1-2, will set the D9 signal to the op amp onboard (if you solder the lm386 on the pcb). Else if you don't want to use the OP AMP, you can set the jumper to 2-3, this will connect the D9 signal directly to the 3.5mm jack. 
+Since is not very clear if there is necessary a output amp, I have added a little DPDT, one position switch to bypass or enable the D9 signal to the AMP LM386. The other position will connect the D9 signal directly to the 3.5mm jack. 
 
 # Images
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/img1.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/top.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/img2.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottom.png?raw=true" width="700">
 
 # Instructions
  
@@ -38,9 +38,13 @@ Fuses are lfuse = 0xff hfuse = 0xDA, efuse = 0x05, LB = 0x0F
 
 # Acrylic case
 
-I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535743
+I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535743 (not updated for version 1.4 yet)
 
 # Updates
+
+23/04/2018: Fix some issues with the op amp, adding two resistors (jgilcas). Removed the solder jumper and the spst switch and change both with an DPDT switch (A.Villena). Changed the orientation of the external connection to make it compatible with the SUGARLESS project (spark2k06).
+
+Bom updated.
 
 17/02/2018: Add a screen voltage selector, this is because some chinese oled screen came with the VCC and GND mixed. This can be change on the screen (there are two resistros to swap voltage) but it will more fast to select onboard with two new available solder jumpers.
 
@@ -70,27 +74,28 @@ Changed the USB connector to a most common used.
 | Part          | Value                   | Package                        |
 | ------------- | ----------------------- | ------------------------------ | 
 | C1            | 10uf/22uf               | C0805K                         |
-| C2            | 0.22uF                  | C0805K                         |
-| C3            | 10uf                    | C0805K                         |
-| C4            | 220uf (ECA-0JM221)      | CPOL-EUE1.8-4 (only with amp)  |
+| C2            | 10uf/22uf               | C0805K                         |
+| C3            | 0.22uF                  | C0805K                         |
+| C4            | 10uf                    | C0805K                         |
+| C5            | 220uf (ECA-0JM221)      | CPOL-EUE1.8-4 (only with amp)  |
 | M2            | ARDUINO PRO MINI        | PCB                            |
 | REG           | LM1117 3V3              | SOT233                         |
 | IC1           | 4050D                   | SO16                           |
 | IC4           | LM386M-1                | SO08 (only if amp required)    |
 | ISP           | AVR_SPI_PRG_6PTH        | 2X3                            |
 | TTL           | PINHD_1X04              | 1X04                           |
-| J1            | D9 bypass-enable        | Solder jumper                  |
 | JP1           | OLED SCREEN CONNECTOR   | 1X04_ROUND                     |
 | K1            | MICROUSB B              | 629105136821                   |
 | POWER         | SMD 0805 LED            | CHIP-LED0805                   |
 | ACT           | SMD 0805 LED            | CHIP-LED0805                   |
-| R1            | 1K TrimPotentiometer    | RTRIM3103   (only with amp)    |
+| R1            | 10K TrimPotentiometer   | RTRIM3103   (only with amp)    |
 | R2 (FOR LED)  | 330/560/1K              | R0805                          |
 | R3 (FOR LED)  | 330/560/1K              | R0805                          |
+| R4            | 10K                     | R0805 (only with amp)          |
+| R5            | 10K                     | R0805 (only with amp)          |
 | PLAY          | PUSH BUTTON             | B3F-31XX                       |
 | DOWN          | PUSH BUTTON             | B3F-31XX                       |
 | ROOT          | PUSH BUTTON             | B3F-31XX                       |
-| S1            | PUSH BUTTON             | B3F-10XX                       |
 | STOP          | PUSH BUTTON             | B3F-31XX                       |
 | UP            | PUSH BUTTON             | B3F-31XX                       |
 | SD1           | MicroSD socket          | TF-PULL                        |
@@ -98,5 +103,10 @@ Changed the USB connector to a most common used.
 | X1            | STEREOJACK 3.5mm        | STX3100                        |
 | X2            | STEREOJACK 2.5mm        | PJ-204B                        |
 | X3            | 5X2 Pin row             | Standard 1" double pin row     |
+| S1            | DPDT Switch             | AYZ0202                        |
 
 This is the arduino used in all the versions of the TZXDUINO. Must have A4 and A5 at bottom of the A2 and A3. AliExpress Link. https://es.aliexpress.com/store/product/Free-Shipping-New-Atmega328-5v-Version-Pro-Mini-Module-16M-For-Arduino-Compatible/1962508_32605434250.html?spm=a219c.search0104.3.6.27c06b16t4pHKf&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_5722813_10151_10344_10068_10342_5722613_10547_10343_5722913_10340_10341_10548_10698_10697_10696_10084_10083_5722713_10618_10307_10301_10303_5711213_10059_10184_10534_308_100031_10103_441_10624_10623_10622_10621_10620_5722513_5711313,searchweb201603_1,ppcSwitch_5&algo_expid=69227fd3-b92f-4d61-afc6-97915d0331e3-3&algo_pvid=69227fd3-b92f-4d61-afc6-97915d0331e3&transAbTest=ae803_1&priceBeautifyAB=0
+
+This are the DPDT switches that are maybe compatible with the footprint:
+
+https://es.aliexpress.com/store/product/70pcs-On-Off-On-6-Pin-DPDT-Vertical-Mini-SMD-SMT-Slide-Power-Switch-7x6x4mm/1178755_1953364266.html?spm=a219c.search0104.3.146.287176b1h1eqtT&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_5722813_10151_10344_10068_10342_5722613_10547_10343_5722913_10340_10341_10548_10698_10697_10696_10084_10083_5722713_10618_10307_10301_10303_5711213_10059_10184_308_100031_10103_441_10624_10623_10622_10621_10620_5722513_5711313,searchweb201603_15,ppcSwitch_5&algo_expid=6e95ecf1-40f5-4b5b-8649-c467855a15c0-22&algo_pvid=6e95ecf1-40f5-4b5b-8649-c467855a15c0&transAbTest=ae803_1&priceBeautifyAB=0
