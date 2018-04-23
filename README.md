@@ -22,9 +22,9 @@ Since is not very clear if there is necessary a output amp, I have added a littl
 
 # Images
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/top.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/top1.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottom.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/bottom1.png?raw=true" width="700">
 
 # Instructions
  
