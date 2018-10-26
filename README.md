@@ -26,7 +26,7 @@ Update 26-10-2018. There is a small bug on the PCB for the OP AMP. Antonio Ville
 2-You must short two pins of the selector (s1). Check images below.
 
 <img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/fix1.jpg?raw=true" width="700">
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/fox2.jpg?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/fix2.jpg?raw=true" width="700">
 
 # Images
 
