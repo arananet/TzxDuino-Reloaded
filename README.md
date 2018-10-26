@@ -20,6 +20,14 @@ If you like the project, buy me a beer :) info@arananet.net
 
 Since is not very clear if there is necessary a output amp, I have added a little DPDT, one position switch to bypass or enable the D9 signal to the AMP LM386. The other position will connect the D9 signal directly to the 3.5mm jack. 
 
+Update 26-10-2018. There is a small bug on the PCB for the OP AMP. Antonio Villena has sorted out. The trick is:
+
+1-You must short (with a solder bolb) C3, R4, R5.
+2-You must short two pins of the selector (s1). Check images below.
+
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/fix1.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/fox2.png?raw=true" width="700">
+
 # Images
 
 <img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/top1.png?raw=true" width="700">
