@@ -52,6 +52,8 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 
 # Updates
 
+12/11/2019: Updated license stuff (I usually not do this but I must start it with this).
+
 23/04/2018: Fix some issues with the op amp, adding two resistors (jgilcas). Removed the solder jumper and the spst switch and change both with an DPDT switch (A.Villena). Changed the orientation of the external connection to make it compatible with the SUGARLESS project (spark2k06).
 
 Bom updated.
@@ -120,3 +122,16 @@ This is the arduino used in all the versions of the TZXDUINO. Must have A4 and A
 This are the DPDT switches that are maybe compatible with the footprint:
 
 https://es.aliexpress.com/store/product/70pcs-On-Off-On-6-Pin-DPDT-Vertical-Mini-SMD-SMT-Slide-Power-Switch-7x6x4mm/1178755_1953364266.html?spm=a219c.search0104.3.146.287176b1h1eqtT&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_5722813_10151_10344_10068_10342_5722613_10547_10343_5722913_10340_10341_10548_10698_10697_10696_10084_10083_5722713_10618_10307_10301_10303_5711213_10059_10184_308_100031_10103_441_10624_10623_10622_10621_10620_5722513_5711313,searchweb201603_15,ppcSwitch_5&algo_expid=6e95ecf1-40f5-4b5b-8649-c467855a15c0-22&algo_pvid=6e95ecf1-40f5-4b5b-8649-c467855a15c0&transAbTest=ae803_1&priceBeautifyAB=0
+
+# License
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
