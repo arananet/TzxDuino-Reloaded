@@ -46,6 +46,8 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 
 # Updates
 
+18/11/2019: Added link to the MAXDUINO firmware.
+
 12/11/2019: Updated license stuff (I usually not do this but I must start it with this).
 
 23/04/2018: Fix some issues with the op amp, adding two resistors (jgilcas). Removed the solder jumper and the spst switch and change both with an DPDT switch (A.Villena). Changed the orientation of the external connection to make it compatible with the SUGARLESS project (spark2k06).
