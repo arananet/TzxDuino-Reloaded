@@ -32,8 +32,8 @@ Thanks Antonio.
 
 # Instructions
  
-1. Download the official TzxDuino code from http://arduitapemarkii.blogspot.com.es/2017/06/tzxduino-17.html 
-2. Set the display hardware address on the TZXDuino_V1.7b.ino depending on what kind of display have. If does not work, use a i2c scanner in order to get the exact hardware address from the display.
+1. Download the official TzxDuino code from http://arduitapemarkii.blogspot.com.es/2017/06/tzxduino-17.html or you can also use the Maxduino Firmware from RCMOLINA https://github.com/rcmolina/MaxDuino_v1.53.
+2. Set the display hardware address on the TZXDuino_V1.7b.ino or the MaxDuino_v1.53.ino depending on what kind of display have. If does not work, use a i2c scanner in order to get the exact hardware address from the display.
 3. Use a serial TTL programmer and the Arduino IDE to upload the code into the ATMEGA.
 4. Plug an MicroSD card with all the files and enjoy the power of the TzxDuino!
 5. In case we use the hex file to clon and flash many TzxDuino devices we need to set the fuses with the avrdude. 
