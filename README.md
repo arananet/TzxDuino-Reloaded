@@ -87,7 +87,7 @@ Changed the USB connector to a most common used.
 | C4            | 10uf                    | C0805K                         |
 | C5            | 220uf (ECA-0JM221)      | CPOL-EUE1.8-4 (only with amp)  |
 | M2            | ARDUINO PRO MINI        | PCB                            |
-| REG           | LM1117 3V3              | SOT233                         |
+| REG           | LM1117 3V3              | SOT223                         |
 | IC1           | 4050D                   | SO16                           |
 | IC4           | LM386M-1                | SO08 (only if amp required)    |
 | ISP           | AVR_SPI_PRG_6PTH        | 2X3                            |
