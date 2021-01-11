@@ -59,7 +59,7 @@ I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535
 | R1	        | 10	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
-| R5	        | 1k	                  | R0805                          |
+| R5	        | 1k	                  | R0805 (adjust to your needs)    |
 | S1	        | SWITCH-DPDTSMD	      | AYZ0202                        |
 | SD1	        | TF-HOLDER	              | TF-PULL                        |
 | X1            | STEREOJACK 3.5mm        | STX3100                        |
