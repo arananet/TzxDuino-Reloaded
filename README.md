@@ -55,7 +55,7 @@ I've update the acrylic case for this new version, it's available here: https://
 | IC1	        | 4050D	                  | SO16                           |
 | IC4	        | LM386M-1	              | SO08 (only if amp required)    |
 | POWER	        | GREEN	                  | CHIP-LED0805                   |
-| PWR	        | MICRO-USB-B             | (or connect directly from Nano   |
+| PWR	        | MICRO-USB-B             | (or connect directly from Nano) |
 | R1	        | 10	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
