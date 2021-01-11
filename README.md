@@ -33,7 +33,7 @@ Since is not very clear if there is necessary a output amp, I have added a littl
 
 # Acrylic case
 
-I also made an acrylic case for this pcb. https://www.thingiverse.com/thing:2535743 (not updated for version 1.5 nano yet)
+I've update the acrylic case for this new version, it's available here: https://www.thingiverse.com/thing:2535743, you can use the services of transparentcitysales@gmail.com so they can cut the design in acrylic.
 
 # Updates
 
