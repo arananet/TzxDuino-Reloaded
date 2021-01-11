@@ -87,7 +87,7 @@ https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-MICRO-4P-DIP_C456008.htm
 
 # Oled display
 
-Note that with the new version 1.5 you can use oled displays with 128x64 or 128x32 versions but the pins must be in this order: GND VCC SCL SDA.
+Note that with the new version 1.5, now you can use oled displays types of 128x64 or 128x32 versions but the pins must be in this order: GND VCC SCL SDA.
 
 # Note
 
