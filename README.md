@@ -20,7 +20,7 @@ Since is not very clear if there is necessary a output amp, I have added a littl
 
 # Images
 
-<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzxduino_reloaded_nano.png?raw=true" width="700">
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzxduino_reloaded_nano1.png?raw=true" width="700">
 
 <img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzxduino_reloaded_nano_back.png?raw=true" width="700">
 
