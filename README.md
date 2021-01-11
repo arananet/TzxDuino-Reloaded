@@ -16,7 +16,7 @@ I would like to thanks to the people that have helped these years on fix things 
 
 # Audio Amp
 
-Since is not very clear if there is necessary a output amp, I have added a little DPDT, one position switch to bypass or enable the D9 signal to the AMP LM386. The other position will connect the D9 signal directly to the 3.5mm jack. 
+Since is not very clear if there is necessary a output amp, I have added a little DPDT, one position switch to bypass or enable the D9 signal to the AMP LM386. The other position will connect the D9 signal directly to the 3.5mm jack. If the volume of the output is higher than expected you can change the value of the R5 resistor from 1k to 10k.
 
 # Images
 
