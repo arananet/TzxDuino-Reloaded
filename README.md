@@ -73,7 +73,7 @@ I've update the acrylic case for this new version, it's available here: https://
 
 # External parts
 
-Arduino Nano
+## Arduino Nano
 
 This is the arduino used on the new version 1.5 https://es.aliexpress.com/item/1005001706390728.html?spm=a2g0o.productlist.0.0.22ae1b61xzGZdn&algo_pvid=6e84573f-72f2-408d-8187-1859f93df6f0&algo_expid=6e84573f-72f2-408d-8187-1859f93df6f0-0&btsid=2100bddb16103571535116853eaf9c&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
@@ -81,13 +81,13 @@ This are the DPDT switches that are maybe compatible with the footprint:
 
 https://es.aliexpress.com/store/product/70pcs-On-Off-On-6-Pin-DPDT-Vertical-Mini-SMD-SMT-Slide-Power-Switch-7x6x4mm/1178755_1953364266.html?spm=a219c.search0104.3.146.287176b1h1eqtT&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_5722813_10151_10344_10068_10342_5722613_10547_10343_5722913_10340_10341_10548_10698_10697_10696_10084_10083_5722713_10618_10307_10301_10303_5711213_10059_10184_308_100031_10103_441_10624_10623_10622_10621_10620_5722513_5711313,searchweb201603_15,ppcSwitch_5&algo_expid=6e95ecf1-40f5-4b5b-8649-c467855a15c0-22&algo_pvid=6e95ecf1-40f5-4b5b-8649-c467855a15c0&transAbTest=ae803_1&priceBeautifyAB=0
 
-# Usb connector
+## Usb connector
 
 You can add the micro usb connector or power the TZXDUINO RELOADED from the Arduino NANO directly.
 
 https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-MICRO-4P-DIP_C456008.html
 
-# Oled display
+## Oled display
 
 Note that with the new version 1.5, now you can use oled displays types of 128x64 or 128x32 versions but the pins must be in this order: GND VCC SCL SDA.
 
