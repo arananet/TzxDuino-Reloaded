@@ -59,7 +59,7 @@ I've update the acrylic case for this new version, it's available here: https://
 | R1	        | 10	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
-| R5	        | 1k	                  | R0805 (adjust to your needs)    |
+| R5	        | 1k	                  | R0805 (adjust to your needs 1k-10k)    |
 | S1	        | SWITCH-DPDTSMD	      | AYZ0202                        |
 | SD1	        | TF-HOLDER	              | TF-PULL                        |
 | X1            | STEREOJACK 3.5mm        | STX3100                        |
