@@ -6,7 +6,7 @@ This new version has been completely reworked with smd components. Also change t
 
 # Coworkers
 
-I would like to thanks to the people that have helped these years on fix things of this design and also for extra tips to improve it. These people are well know on the retrocommunity in general: @jgilcas, spark2k06, Antonio Villena and Noel Llopis.
+I would like to thanks to the people that have helped these years on fix things of this project and also for extra tips to improve it. These people are well know on the retrocommunity in general: @jgilcas, spark2k06, Antonio Villena and Noel Llopis.
 
 # Works with
 
