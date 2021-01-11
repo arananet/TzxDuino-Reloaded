@@ -55,7 +55,7 @@ I've update the acrylic case for this new version, it's available here: https://
 | IC1	        | 4050D	                  | SO16                           |
 | IC4	        | LM386M-1	              | SO08 (only if amp required)    |
 | POWER	        | GREEN	                  | CHIP-LED0805                   |
-| PWR	        | MICRO-USB-B             | MICRO_USB_4_LEGS               |
+| PWR	        | MICRO-USB-B             | (or connect directly from Nano   |
 | R1	        | 10	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
@@ -83,7 +83,7 @@ https://es.aliexpress.com/store/product/70pcs-On-Off-On-6-Pin-DPDT-Vertical-Mini
 
 ## Usb connector
 
-You can add the micro usb connector or power the TZXDUINO RELOADED from the Arduino NANO directly.
+You can add the micro usb connector for better orientation of the cables or powerup the TZXDUINO RELOADED from the Arduino NANO directly.
 
 https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-MICRO-4P-DIP_C456008.html
 
