@@ -2,11 +2,11 @@
 
 Based on the original design of Andrew Beer, Duncan Edwards.
 
-This new version has been completely reworked with smd components. Also change the distribution and connection orientation. Now, you just plug the TzxDuino on the Spectrum jack and use a common Android power supply (microusb b) and that's it, start loading tzx files!. 
+This new version has been completely reworked with SMD components. Also change the distribution and connection orientation. Now, you just plug the TzxDuino into the Spectrum jack and use a common Android power supply (Micro-USB B) and that's it, you can start loading tzx files!
 
 # Coworkers
 
-I would like to thanks to the people that have helped these years on fix things of this project and also for extra tips to improve it. These people are well know on the retrocommunity in general: @jgilcas, spark2k06, Antonio Villena and Noel Llopis.
+I would like to give thanks to the people who have helped over the years on fixing bugs with this project and also for extra tips to improve it. These people are well known in the retro community in general: @jgilcas, spark2k06, Antonio Villena and Noel Llopis.
 
 # Works with
 
@@ -16,7 +16,7 @@ I would like to thanks to the people that have helped these years on fix things 
 
 # Audio Amp
 
-Since is not very clear if there is necessary a output amp, I have added a little DPDT, one position switch to bypass or enable the D9 signal to the AMP LM386. The other position will connect the D9 signal directly to the 3.5mm jack. If the volume of the output is higher than expected you can change the value of the R5 resistor from 1k to 10k.
+Since it is not very clear if an output amplifier is necessary, I have added a little DPDT, one position switch to bypass or enable the D9 signal to the AMP LM386. The other position will connect the D9 signal directly to the 3.5mm jack. If the volume of the output is higher than expected, you can change the value of the R5 resistor from 1kΩ to 10kΩ.
 
 # Images
 
@@ -27,17 +27,17 @@ Since is not very clear if there is necessary a output amp, I have added a littl
 # Instructions
  
 1. Download the official TzxDuino code from http://arduitapemarkii.blogspot.com.es/2017/06/tzxduino-17.html or you can also use the Maxduino Firmware from RCMOLINA https://github.com/rcmolina/MaxDuino_v1.53.
-2. Set the display hardware address on the TZXDuino_V1.7b.ino or the MaxDuino_v1.53.ino depending on what kind of display have. If does not work, use a i2c scanner in order to get the exact hardware address from the display.
+2. Set the display hardware address on the TZXDuino_V1.7b.ino or the MaxDuino_v1.53.ino depending on what kind of display you have. If does not work, use a i2c scanner in order to get the exact hardware address from the display.
 3. Upload the firmware code using the Arduino IDE.
 4. Plug an MicroSD card with all the files and enjoy the power of the TzxDuino! 
 
 # Acrylic case
 
-I've update the acrylic case for this new version, it's available here: https://www.thingiverse.com/thing:2535743, you can use the services of transparentcitysales@gmail.com so they can cut the design in acrylic.
+I've updated the acrylic case for this new version, it's available here: https://www.thingiverse.com/thing:2535743, you can use the services of transparentcitysales@gmail.com so they can cut the design in acrylic.
 
 # Updates
 
-11/01/2021: New version 1.5 Nano, reworked with all the fixes. I've changed the Arduino Pro mini for a Arduino Nano for an easy programming and firmware update and also because since the Nano includes some components that was on the old version, it helps to simplify the design. Also remove the SD socket because in nowdays is useless. Bom Updated for the new version. Old version is on the old_info directory. All the changes has been removed from this readme. Also now you can use two types of oled displays, 128x64 or 128x32.
+11/01/2021: New version 1.5 Nano, reworked with all the fixes. I've changed the Arduino Pro mini for a Arduino Nano for an easy programming and firmware update and also because since the Nano includes some components that was on the old version, it helps to simplify the design. Also remove the SD socket because in nowdays is useless. BOM updated for the new version. Old version is on the old_info directory. All the changes to the old version have been removed from this readme. Also, you can now use two types of OLED displays, 128x64 or 128x32.
 
 06/09/2017: First initial release. 
 
@@ -81,26 +81,26 @@ This are the DPDT switches that are maybe compatible with the footprint:
 
 https://es.aliexpress.com/store/product/70pcs-On-Off-On-6-Pin-DPDT-Vertical-Mini-SMD-SMT-Slide-Power-Switch-7x6x4mm/1178755_1953364266.html?spm=a219c.search0104.3.146.287176b1h1eqtT&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_5722813_10151_10344_10068_10342_5722613_10547_10343_5722913_10340_10341_10548_10698_10697_10696_10084_10083_5722713_10618_10307_10301_10303_5711213_10059_10184_308_100031_10103_441_10624_10623_10622_10621_10620_5722513_5711313,searchweb201603_15,ppcSwitch_5&algo_expid=6e95ecf1-40f5-4b5b-8649-c467855a15c0-22&algo_pvid=6e95ecf1-40f5-4b5b-8649-c467855a15c0&transAbTest=ae803_1&priceBeautifyAB=0
 
-## Usb connector
+## USB connector
 
-You can add the micro usb connector for better orientation of the cables or powerup the TZXDUINO RELOADED from the Arduino NANO directly.
+You can add the micro-USB connector for better orientation of the cables, or power the TZXDUINO RELOADED from the Arduino NANO directly.
 
 https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-MICRO-4P-DIP_C456008.html
 
-## Oled display
+## OLED display
 
-Note that with the new version 1.5, now you can use oled displays types of 128x64 or 128x32 versions but the pins must be in this order: GND VCC SCL SDA.
+Note that with the new version 1.5, you can now use 128x64 or 128x32 OLED displays. The pins of the display must be in this order: GND VCC SCL SDA.
 
 # Note
 
-This is a work in progress, several testing must be made but it should work as is. I take no responsibiltiy for any damage to any equipment that results from the use of this board. USE AT YOUR OWN RISK!
+This is a work in progress, more testing needs to be done, but it should work as is. I take no responsibiltiy for any damage to any equipment that results from the use of this board. USE AT YOUR OWN RISK!
 
 If you like the project or want to support it, you can buy me a beer or a KO-FI :) 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H51MPWG)
 
 # License
 
-ATTENTION: This is for ebay sellers, this project was made for the retro community and not for resale on ebay. So only retro hardware forums and individual person can build this project. ITS NOT FOR EBAY SALE.
+ATTENTION: This is for eBay sellers: this project was made for the retro community and not for resale on eBay. So only retro hardware forums and individual people can build this project. IT'S NOT FOR EBAY SALE.
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
