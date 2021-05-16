@@ -66,6 +66,7 @@ I've updated the acrylic case for this new version, it's available here: https:/
 | POWER	        | GREEN	                  | CHIP-LED0805                   |
 | PWR	        | MICRO-USB-B             | (or connect directly from Nano) |
 | R1	        | 10	                  | R0805                          |
+| R2	        | 330	                  | R0805                          |
 | R3	        | 330	                  | R0805                          |
 | R5	        | 1k	                  | R0805 (adjust to your needs 1k-10k)    |
 | S1	        | SWITCH-DPDTSMD	      | AYZ0202                        |
