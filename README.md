@@ -24,6 +24,15 @@ Since it is not very clear if an output amplifier is necessary, I have added a l
 
 <img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzxduino_reloaded_nano_back.png?raw=true" width="700">
 
+# Unit builded
+(thanks to Noel Llopis for the pics).
+
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzx1.jpg?raw=true" width="700">
+
+<img src="https://github.com/arananet/TzxDuino-Reloaded/blob/master/images/tzx2.jpg?raw=true" width="700">
+
+
+
 # Instructions
  
 1. Download the official TzxDuino code from http://arduitapemarkii.blogspot.com.es/2017/06/tzxduino-17.html or you can also use the Maxduino Firmware from RCMOLINA https://github.com/rcmolina/MaxDuino_v1.53.
